@@ -3,25 +3,154 @@ body, html{
 }
 body{
   margin: 0px;
-  background-color:#444;
+  background-image: url("https://images-na.ssl-images-amazon.com/images/I/71AgaCW2tWL._SL1212_.jpg");
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
   font-size: 18px;
+  text-align: center;
 }
 body, a:link, a:visited, a:active{
   color: lightblue;
 }
-.title, .addDancerButton{
-  padding:5px 12px;
-  float:right;
-}
-.topbar{
+
+
+.middleBar {
   height:32px;
-  background-color: #555;
+  padding:5px 12px;
+  float: center;
+  display: inline-block
+
 }
-.title{
-  background-color: #777;
+
+
+.topBar {
+  height:32px;
+  padding:5px 12px;
+  float: center;
+  display: inline-block;
+
 }
-.dancer{
+
+.lowestBar {
+  height:32px;
+  padding:5px 12px;
+  float: center;
+  display: inline-block;
+
+}
+
+
+
+
+.title {
+  padding:5px 12px;
+  background-color: pink;
+  color: rgb(42, 21, 230);
+  font-weight: bolder;
+  font-size: 30px;
+  float: center;
+  justify-content: center;
+  border-radius: 10px;
+  text-align:center;
+}
+.dancer {
   border:10px solid red;
   border-radius:10px;
   position:absolute;
 }
+
+.dancerButton {
+  background-color: turquoise;
+  color: pink;
+  font-weight: bolder;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  float: right;
+  text-shadow: rgb(204, 129, 141);
+}
+
+.clearDancerButton {
+  background-color: rgb(247, 247, 189);
+  color: turquoise;
+  font-weight: bolder;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  float: right;
+  font-weight: bold;
+  text-shadow: aqua;
+}
+
+.manipulateDancers {
+  background-color: rgb(42, 21, 230);
+  color: rgb(253, 255, 225);
+  font-weight: bolder;
+  font-weight: bolder;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  float: right;
+  /* margin-right:  */
+  text-shadow: rgb(204, 129, 141);
+}
+
+.danceFloor {
+  height: 100px;
+  /* border: 50px, 50px, 50px, 50px; */
+  /* padding: 50px, 50px, 50px, 50px; */
+  margin: 50px, 50px, 50px, 50px;
+}
+
+.danceRoom {
+  height: 100px;
+  /* border: 50px, 50px, 50px, 50px; */
+  /* padding: 50px, 50px, 50px, 50px; */
+  margin: 50px, 50px, 50px, 50px;
+}
+
+
+.shakeyDancer {
+  content: url(https://66.media.tumblr.com/tumblr_men4drfXRu1qe5icro1_250.gif);
+  /* padding: 5px; */
+  float: right;
+  width: 150px;
+  height: auto;
+  /* left:left; */
+  /* border-radius:10px; */
+  /* margin:5px; */
+
+}
+
+
+.blinkyDancer {
+  content: url(https://clipartspub.com/images/video-animated-clipart-dancing-gif-png-dance.gif);
+  /* padding: 5px; */
+  top: center;
+  /* border-radius:10px; */
+  /* margin:5px; */
+  width: 300px;
+  height: auto;
+  /* position: absolute; */
+  /* left:100px;
+  top:150px; */
+}
+
+
+.explodeyDancer {
+  content: url(https://i.pinimg.com/originals/ec/b9/ba/ecb9ba7d6a4667692ffd9a4c007424b3.gif);
+  /* padding: 5px; */
+  /* border-radius:100px; */
+  /* margin:5px; */
+  width: 300px;
+  height: auto;
+  /* left:100px;
+  top:150px; */
+}
+
+
